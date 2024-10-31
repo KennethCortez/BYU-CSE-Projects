@@ -29,5 +29,4 @@ public abstract class SimpleGoal : Goal
         return _isComplete ? "[X] " : "[ ] " + $"{ShortName} - {Description}";
     }
 
-    
 }
