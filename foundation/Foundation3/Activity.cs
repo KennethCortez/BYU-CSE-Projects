@@ -7,7 +7,7 @@ public abstract class Activity
     public Activity(DateTime date, int duration)
     {
         _date = date;
-        _duration = _duration;
+        _duration = duration;
     }
 
     public DateTime Date => _date;
